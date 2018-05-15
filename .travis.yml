@@ -5,11 +5,12 @@
 sudo: false
 dist: trusty
 
-language: node_jsnode_js:
+language: node_js
+node_js:
   - "node"
   - "10.1.0"
 
 script:
-- echo "Running echo command"
-- node -v
-- node index.js
+  - echo "Running echo command"
+  - node -v
+  - node index.js
