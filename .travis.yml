@@ -2,5 +2,12 @@
 #before_install:
 #- echo "Befor Install"
 
+sudo: false
+dist: trusty
+
+language: node_js
+
 script:
 - echo "Running echo command"
+- node -v
+- node index.js
